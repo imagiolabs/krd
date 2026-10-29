@@ -1,0 +1,17 @@
+# Swift Package Manager build products / scratch space
+.build/
+.swiftpm/
+
+# Editor and Finder noise
+.DS_Store
+
+# Local captures and logs from probe/ and --log
+tmp_*.png
+*.log
+
+# Raw screen recordings; the compressed demo.gif / demo.mp4 are committed
+docs/media/*.mov
+docs/media/raw/
+
+# pi subagent scratch state
+.pi-subagents/
